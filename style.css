@@ -1,0 +1,27 @@
+* {
+	font-family: 'Roboto Serif', serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+	right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+.container > .header {
+    display: table-cell;
+    vertical-align: middle;
+	font-size: 80px;
+}
+
+.container > .subheader {
+    display: table-cell;
+    vertical-align: middle;
+	font-size: 30px;
+	padding : 30px;
+}
