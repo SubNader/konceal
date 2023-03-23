@@ -17,7 +17,8 @@ html, body {
      transition: transform .7s ease-in-out;
 }
 
-.container > .header:hover{
+.container > .header:active 
+{
      transform: rotate(360deg);
 }
 
