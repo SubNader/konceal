@@ -11,19 +11,19 @@ html, body {
 
 .container > .header {
     vertical-align: middle;
-    font-size: 120px;
+    font-size: 15vw;
     color: #0096FF;
     font-family: 'Roboto Slab', serif;
-     transition: transform .7s ease-in-out;
+    transition: transform .7s ease-in-out;
 }
 
 .container > .header:active {
-     transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .container > .subheader {
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 3vw;
     text-align:center;
     margin: 10px;
     font-family: 'Roboto Serif', serif;
